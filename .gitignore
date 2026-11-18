@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+env/
+ENV/
+app/data/chroma_db/
+app/data/*.db-journal
+.pytest_cache/
+.DS_Store
