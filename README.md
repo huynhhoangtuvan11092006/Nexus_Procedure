@@ -52,7 +52,7 @@ Khi không có phiên nào đang chạy, màn hình chính đóng vai trò là m
 * **Audit Trail:** Bảng danh sách các phiên đàm phán gần nhất kèm nút xem lại nhanh từng phiên.
 
 ![Bảng phân tích hiệu suất tổng thể và Nhật ký kiểm toán](./docs/images/demo_platform_analytics.png)
-*Hình: Dashboard phân tích KPI hiệu suất hệ thống và Danh sách kiểm toán (Audit Trail).*
+*Hình 1: Dashboard phân tích KPI hiệu suất hệ thống và Danh sách kiểm toán (Audit Trail).*
 
 ---
 
@@ -73,13 +73,13 @@ Khi không có phiên nào đang chạy, màn hình chính đóng vai trò là m
   * Lượt 2: Buyer chủ động nâng lên 180,000 VNĐ để cứu dây chuyền; Seller chấp thuận khớp giá 180,000 VNĐ và cam kết giao hàng hỏa tốc trong 3 ngày.
 
 ![Biểu đồ hội tụ giá và thiết lập chế độ khẩn cấp](./docs/images/demo_urgent_chart.png)
-*Hình 1: Thiết lập chế độ Cần hàng khẩn cấp và biểu đồ hội tụ giá sau 2 vòng.*
+*Hình 2: Thiết lập chế độ Cần hàng khẩn cấp và biểu đồ hội tụ giá sau 2 vòng.*
 
 ![Lượt 1: Tra cứu hợp đồng lịch sử để đàm phán](./docs/images/demo_round1.jpg)
-*Hình 2: Buyer Agent viện dẫn hợp đồng quá khứ và yêu cầu giao hỏa tốc 2-3 ngày.*
+*Hình 3: Buyer Agent viện dẫn hợp đồng quá khứ và yêu cầu giao hỏa tốc 2-3 ngày.*
 
 ![Lượt 2: Chốt đơn đặt hàng PO và cam kết giao hàng hỏa tốc](./docs/images/demo_round2.jpg)
-*Hình 3: Hai bên khớp giá 180,000 VNĐ, cam kết giao hàng 3 ngày và tự động lập Đơn Đặt Hàng PO.*
+*Hình 4: Hai bên khớp giá 180,000 VNĐ, cam kết giao hàng 3 ngày và tự động lập Đơn Đặt Hàng PO.*
 
 ---
 
@@ -88,10 +88,10 @@ Khi không có phiên nào đang chạy, màn hình chính đóng vai trò là m
 * **Kết quả:** Mediator Agent phát hiện hai bên chạm ngưỡng giới hạn mà không thể thu hẹp thêm khoảng cách (18.8%), tự động chuyển trạng thái sang `PAUSED` và mở Bảng điều hành Human Override để Quản lý can thiệp.
 
 ![Biểu đồ nhận diện bế tắc](./docs/images/demo_deadlock_chart.png)
-*Hình 1: Biểu đồ thể hiện Buyer chạm trần ngân sách 65k và Seller chạm giá sàn 78k, đàm phán bế tắc.*
+*Hình 5: Biểu đồ thể hiện Buyer chạm trần ngân sách 65k và Seller chạm giá sàn 78k, đàm phán bế tắc.*
 
 ![Bảng điều hành và can thiệp của Quản lý](./docs/images/demo_intervention.png)
-*Hình 2: Bảng can thiệp cho phép Quản lý chọn 6 chế độ can thiệp (Chấp thuận, Bác bỏ, Điều chỉnh trần/sàn, Gửi chỉ đạo tự do, Hủy bỏ).*
+*Hình 6: Bảng can thiệp cho phép Quản lý chọn 6 chế độ can thiệp (Chấp thuận, Bác bỏ, Điều chỉnh trần/sàn, Gửi chỉ đạo tự do, Hủy bỏ).*
 
 ---
 
