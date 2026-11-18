@@ -56,7 +56,7 @@ Khi không có phiên nào đang chạy, màn hình chính đóng vai trò là m
 
 ---
 
-## 3. Các Kịch Bản Kiểm Thử Thực Tế (Kèm Hình Demo)
+## 3. Các Kịch Bản Kiểm Thử Thực Tế
 
 ### Kịch bản 1: Mua sắm thông thường (Tự động thương thảo & Chốt giá)
 * **Tình huống:** Mua linh kiện bán dẫn. Hai bên đàm phán thu hẹp khoảng cách giá qua từng vòng và tự động chốt deal khi chênh lệch dưới 2%.
@@ -126,7 +126,7 @@ d:/MultiAgent/
 │   ├── models/schemas.py        # Định dạng dữ liệu: Báo giá, Đơn đặt hàng (PO), Quyết định trọng tài
 │   ├── graph/
 │   │   ├── workflow.py          # State Machine tuần hoàn 3 Agent (Buyer - Seller - Mediator)
-│   │   ├── master_workflow.py   # Quy trình tổng thể tích hợp kiểm thử 4 kịch bản
+│   │   ├── master_workflow.py   # Quy trình tổng thể tích hợp kiểm thử 3 kịch bản
 │   │   └── state.py             # Trạng thái luân chuyển đàm phán (NegotiationState)
 │   ├── agents/
 │   │   ├── buyer.py             # Đại diện bên mua (tra cứu giá quá khứ, ép giá, nhận chỉ đạo inject)
@@ -136,7 +136,7 @@ d:/MultiAgent/
 │   ├── data/database.py         # Quản lý SQLite: lưu vết negotiation_logs và hàm tính Platform Analytics
 │   └── ui/app.py                # Giao diện Web: Live Arena, 6 Human Overrides, Session Replay, Analytics
 ├── docs/images/                 # Hình ảnh chụp demo thực tế các kịch bản
-├── tests/test_usecases.py       # Bộ kiểm thử tự động 4 kịch bản
+├── tests/test_usecases.py       # Bộ kiểm thử tự động 3 kịch bản
 ├── requirements.txt             # Thư viện phụ thuộc
 └── README.md                    # Tài liệu hướng dẫn dự án
 ```
