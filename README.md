@@ -51,6 +51,9 @@ Khi không có phiên nào đang chạy, màn hình chính đóng vai trò là m
 * **Price Gap %:** Mức độ thu hẹp khoảng cách giá trước khi đạt thỏa thuận.
 * **Audit Trail:** Bảng danh sách các phiên đàm phán gần nhất kèm nút xem lại nhanh từng phiên.
 
+![Bảng phân tích hiệu suất tổng thể và Nhật ký kiểm toán](./docs/images/demo_platform_analytics.png)
+*Hình: Dashboard phân tích KPI hiệu suất hệ thống và Danh sách kiểm toán (Audit Trail).*
+
 ---
 
 ## 3. Các Kịch Bản Kiểm Thử Thực Tế (Kèm Hình Demo)
